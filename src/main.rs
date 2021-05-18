@@ -11,6 +11,7 @@ use std::env;
 const INDEX: &str = r#"The Fuwn Records
 ================
 
+Source: https://github.com/fuwn/records
 Last updated: 2021. 05. 18.
 "#;
 
