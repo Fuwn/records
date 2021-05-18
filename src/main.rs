@@ -29,7 +29,7 @@ async fn main() -> std::io::Result<()> {
       .wrap(actix_cors::Cors::default().allow_any_origin())
       .wrap(actix_web::middleware::Logger::default())
       .service(actix_web::web::resource("/").to(|| async { INDEX }))
-      .service(actix_files::Files::new("/records", "./records/_/").show_files_listing())
+      .service(actix_files::Files::new("/records", "./records/").show_files_listing())
   })
   .bind(format!(
     "0.0.0.0:{}",
