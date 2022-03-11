@@ -18,7 +18,7 @@ codegen-units = 1
 # Web-Server
 actix-web = "3.3.2"
 actix-files = "0.5.0"
-actix-cors = "0.5.4"
+actix-cors = "0.6.1"
 
 # Environment
 dotenv = "0.15.0"
